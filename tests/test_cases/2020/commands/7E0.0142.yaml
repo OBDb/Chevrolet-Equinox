@@ -1,0 +1,76 @@
+command_id: 7E0.0142
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E80441420018'
+  expected_values:
+    VPWR: 0.024
+- response: '7E80441420025'
+  expected_values:
+    VPWR: 0.037
+- response: 7E8044142313C
+  expected_values:
+    VPWR: 12.604
+- response: 7E804414231D9
+  expected_values:
+    VPWR: 12.761
+- response: 7E8044142347E
+  expected_values:
+    VPWR: 13.438
+- response: 7E8044142351B
+  expected_values:
+    VPWR: 13.595
+- response: '7E80441423573'
+  expected_values:
+    VPWR: 13.683
+- response: '7E80441423579'
+  expected_values:
+    VPWR: 13.689
+- response: '7E80441423592'
+  expected_values:
+    VPWR: 13.714
+- response: 7E8044142359F
+  expected_values:
+    VPWR: 13.727
+- response: 7E804414235A5
+  expected_values:
+    VPWR: 13.733
+- response: 7E804414235B2
+  expected_values:
+    VPWR: 13.746
+- response: 7E804414235C4
+  expected_values:
+    VPWR: 13.764
+- response: 7E804414235CB
+  expected_values:
+    VPWR: 13.771
+- response: '7E80441423603'
+  expected_values:
+    VPWR: 13.827
+- response: 7E8044142362F
+  expected_values:
+    VPWR: 13.871
+- response: 7E8044142363B
+  expected_values:
+    VPWR: 13.883
+- response: '7E80441423642'
+  expected_values:
+    VPWR: 13.89
+- response: 7E8044142393F
+  expected_values:
+    VPWR: 14.655
+- response: '7E80441423958'
+  expected_values:
+    VPWR: 14.68
+- response: 7EA0441420000
+  expected_values:
+    VPWR: 0
+- response: 7EA04414231CA
+  expected_values:
+    VPWR: 12.746
+- response: 7EA044142325C
+  expected_values:
+    VPWR: 12.892
+- response: 7EA0441423915
+  expected_values:
+    VPWR: 14.613

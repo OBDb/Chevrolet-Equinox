@@ -1,0 +1,67 @@
+command_id: 7E0.7E8.22000D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462000D00
+  expected_values:
+    CHEVROLET_VSS: 0
+- response: 7E80462000D02
+  expected_values:
+    CHEVROLET_VSS: 2
+- response: 7E80462000D03
+  expected_values:
+    CHEVROLET_VSS: 3
+- response: 7E80462000D0A
+  expected_values:
+    CHEVROLET_VSS: 10
+- response: 7E80462000D19
+  expected_values:
+    CHEVROLET_VSS: 25
+- response: 7E80462000D1B
+  expected_values:
+    CHEVROLET_VSS: 27
+- response: 7E80462000D24
+  expected_values:
+    CHEVROLET_VSS: 36
+- response: 7E80462000D2E
+  expected_values:
+    CHEVROLET_VSS: 46
+- response: 7E80462000D30
+  expected_values:
+    CHEVROLET_VSS: 48
+- response: 7E80462000D35
+  expected_values:
+    CHEVROLET_VSS: 53
+- response: 7E80462000D3B
+  expected_values:
+    CHEVROLET_VSS: 59
+- response: 7E80462000D3D
+  expected_values:
+    CHEVROLET_VSS: 61
+- response: 7E80462000D3F
+  expected_values:
+    CHEVROLET_VSS: 63
+- response: 7E80462000D41
+  expected_values:
+    CHEVROLET_VSS: 65
+- response: 7E80462000D45
+  expected_values:
+    CHEVROLET_VSS: 69
+- response: 7E80462000D46
+  expected_values:
+    CHEVROLET_VSS: 70
+- response: 7E80462000D4C
+  expected_values:
+    CHEVROLET_VSS: 76
+- response: 7E80462000D4D
+  expected_values:
+    CHEVROLET_VSS: 77
+- response: 7E80462000D50
+  expected_values:
+    CHEVROLET_VSS: 80
+- response: 7E80462000D5F
+  expected_values:
+    CHEVROLET_VSS: 95
+- response: 7E80462000D61
+  expected_values:
+    CHEVROLET_VSS: 97
