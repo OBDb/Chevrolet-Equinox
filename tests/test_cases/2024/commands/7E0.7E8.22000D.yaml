@@ -1,0 +1,25 @@
+command_id: 7E0.7E8.22000D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462000D00
+  expected_values:
+    CHEVROLET_VSS: 0
+- response: 7E80462000D13
+  expected_values:
+    CHEVROLET_VSS: 19
+- response: 7E80462000D30
+  expected_values:
+    CHEVROLET_VSS: 48
+- response: 7E80462000D34
+  expected_values:
+    CHEVROLET_VSS: 52
+- response: 7E80462000D3C
+  expected_values:
+    CHEVROLET_VSS: 60
+- response: 7E80462000D43
+  expected_values:
+    CHEVROLET_VSS: 67
+- response: 7E80462000D45
+  expected_values:
+    CHEVROLET_VSS: 69
