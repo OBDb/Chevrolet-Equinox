@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation"
+    start_year: 2004
+    end_year: 2009
+    description: "The original Chevrolet Equinox was a mid-size crossover SUV built on GM's Theta platform. Larger than many competitors in the compact SUV segment, it featured a spacious interior with a sliding rear seat that could adjust to prioritize either passenger or cargo space. Power came from a 3.4L V6 engine producing 185 HP, paired with a five-speed automatic transmission and available in front or all-wheel drive configurations. The interior was functional but featured materials that reflected its budget-friendly positioning. A Sport model with a more powerful 3.6L V6 was added later in the production run. The first-generation Equinox established the nameplate as an important part of Chevrolet's lineup during the growing transition from traditional SUVs to car-based crossovers."
+
+  - name: "Second Generation"
+    start_year: 2010
+    end_year: 2017
+    description: "The second-generation Equinox maintained similar exterior dimensions but featured significantly improved styling, interior quality, and efficiency. Initially powered by a standard 2.4L four-cylinder or optional 3.0L V6 (later upgraded to a 3.6L), all engines featured direct injection for improved performance and fuel economy. Notable features included an available powered liftgate, advanced audio system, and a rear-seat entertainment system. Safety was enhanced with standard stability control and available forward collision alert and lane departure warning. A significant refresh in 2016 updated the exterior styling and interior technology. The second-generation Equinox became one of Chevrolet's best-selling vehicles, successfully competing in the increasingly crowded and important compact crossover segment."
+
+  - name: "Third Generation"
+    start_year: 2018
+    end_year: 2023
+    description: "The third-generation Equinox was downsized to more directly compete in the compact crossover segment, losing approximately 400 pounds in the process. The exterior design featured sharper styling aligned with Chevrolet's contemporary design language. Engine options included 1.5L and 2.0L turbocharged four-cylinders and briefly a 1.6L turbodiesel, all providing improved efficiency compared to the previous generation. The interior offered enhanced materials, design, and technology, including an available 8-inch touchscreen with Apple CarPlay and Android Auto compatibility. Safety technology expanded to include automatic emergency braking, lane keep assist, and adaptive cruise control on higher trims. A refresh in 2022 updated the styling and feature content. This generation solidified the Equinox's position as a core model in Chevrolet's lineup, consistently ranking among the brand's best-sellers."
+
+  - name: "Fourth Generation"
+    start_year: 2023
+    end_year: null
+    description: "The current Equinox features a complete redesign with more modern, SUV-like styling and updated technology. Slightly larger than its predecessor, it offers improved passenger and cargo space while maintaining competitive efficiency. Powered by a turbocharged 1.5L four-cylinder engine paired with an 8-speed automatic transmission, it's available in front or all-wheel drive configurations. The interior has been thoroughly modernized with a standard 11.3-inch touchscreen, digital instrument options, and improved materials. Safety technology is comprehensive with Chevy Safety Assist standard across the lineup. The fourth-generation Equinox continues to target the heart of the compact crossover market with a balance of style, technology, and practicality, maintaining its crucial role in Chevrolet's product portfolio as consumer preferences continue to favor SUVs over traditional cars."
