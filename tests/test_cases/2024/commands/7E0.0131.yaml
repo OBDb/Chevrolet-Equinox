@@ -20,3 +20,18 @@ test_cases:
 - response: '7E80441315604'
   expected_values:
     CLR_DIST: 22020
+- response: '7E80441315605'
+  expected_values:
+    CLR_DIST: 22021
+- response: '7E80441315606'
+  expected_values:
+    CLR_DIST: 22022
+- response: '7E80441315607'
+  expected_values:
+    CLR_DIST: 22023
+- response: '7E80441315608'
+  expected_values:
+    CLR_DIST: 22024
+- response: '7E80441315609'
+  expected_values:
+    CLR_DIST: 22025
