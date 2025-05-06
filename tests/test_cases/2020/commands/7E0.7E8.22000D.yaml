@@ -35,6 +35,9 @@ test_cases:
 - response: 7E80462000D0B
   expected_values:
     CHEVROLET_VSS: 11
+- response: 7E80462000D0C
+  expected_values:
+    CHEVROLET_VSS: 12
 - response: 7E80462000D0D
   expected_values:
     CHEVROLET_VSS: 13
@@ -59,6 +62,9 @@ test_cases:
 - response: 7E80462000D15
   expected_values:
     CHEVROLET_VSS: 21
+- response: 7E80462000D16
+  expected_values:
+    CHEVROLET_VSS: 22
 - response: 7E80462000D17
   expected_values:
     CHEVROLET_VSS: 23
@@ -86,6 +92,9 @@ test_cases:
 - response: 7E80462000D1F
   expected_values:
     CHEVROLET_VSS: 31
+- response: 7E80462000D20
+  expected_values:
+    CHEVROLET_VSS: 32
 - response: 7E80462000D21
   expected_values:
     CHEVROLET_VSS: 33
