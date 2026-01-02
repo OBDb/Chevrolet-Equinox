@@ -14,13 +14,13 @@ test_cases:
     7E80462000D3D
     7EA0462000D3E
 - expected_values:
-    CHEVROLET_VSS: 100
+    CHEVROLET_VSS: 96
   response: |-
-    7E80462000D64
-    7EA0462000D63
+    7E80462000D60
+    7EA0462000D60
 - expected_values:
-    CHEVROLET_VSS: 103
-  response: 7E80462000D67
+    CHEVROLET_VSS: 255
+  response: 7E80462000DFF
 - expected_values:
     CHEVROLET_VSS: 255
   response: |-
