@@ -16,8 +16,8 @@ test_cases:
     LOAD_PCT: 0
   response: '7E8 03 41 04 00 '
 - expected_values:
-    LOAD_PCT: 47.45098
-  response: '7E8 03 41 04 79 '
+    LOAD_PCT: 56.07843
+  response: '7E8 03 41 04 8F '
 - expected_values:
     LOAD_PCT: 65.09804
   response: '7E8 03 41 04 A6 '
@@ -25,8 +25,8 @@ test_cases:
     LOAD_PCT: 0
   response: '7E803410400'
 - expected_values:
-    LOAD_PCT: 21.56863
-  response: '7E803410437'
+    LOAD_PCT: 34.5098
+  response: '7E803410458'
 - expected_values:
     LOAD_PCT: 26.66667
   response: "SEARCHING...\n7E8 03 41 04 44 "
