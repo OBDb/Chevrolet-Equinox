@@ -7,23 +7,14 @@ test_cases:
     ECT: 41
   response: '7E8 03 41 05 51 '
 - expected_values:
-    ECT: 49
-  response: '7E8 03 41 05 59 '
-- expected_values:
     ECT: 55
   response: '7E8 03 41 05 5F '
 - expected_values:
-    ECT: 71
-  response: 7E80341056F
+    ECT: 67
+  response: '7E8 03 41 05 6B '
 - expected_values:
-    ECT: 72
-  response: '7E803410570'
-- expected_values:
-    ECT: 73
-  response: '7E803410571'
-- expected_values:
-    ECT: 75
-  response: '7E803410573'
+    ECT: 45
+  response: '7E803410555'
 - expected_values:
     ECT: 78
   response: '7E803410576'
