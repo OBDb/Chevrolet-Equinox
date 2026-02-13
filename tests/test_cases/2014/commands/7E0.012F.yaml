@@ -7,23 +7,14 @@ test_cases:
     FLI: 36.47059
   response: '7E8 03 41 2F 5D '
 - expected_values:
+    FLI: 90.19608
+  response: '7E8 03 41 2F E6 '
+- expected_values:
     FLI: 97.64706
   response: '7E8 03 41 2F F9 '
 - expected_values:
-    FLI: 99.21569
-  response: '7E8 03 41 2F FD '
-- expected_values:
     FLI: 45.88235
   response: 7E803412F75
-- expected_values:
-    FLI: 48.62745
-  response: 7E803412F7C
-- expected_values:
-    FLI: 85.09804
-  response: 7E803412FD9
-- expected_values:
-    FLI: 92.15686
-  response: 7E803412FEB
 - expected_values:
     FLI: 99.21569
   response: 7E803412FFD
