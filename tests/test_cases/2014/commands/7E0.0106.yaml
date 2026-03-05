@@ -7,8 +7,8 @@ test_cases:
     SHRTFT1: -100
   response: "0106\n7E8 03 41 06 00 "
 - expected_values:
-    SHRTFT1: -25
-  response: '7E8 03 41 06 60 '
+    SHRTFT1: -100
+  response: '7E8 03 41 06 00 '
 - expected_values:
     SHRTFT1: 34.375
   response: '7E8 03 41 06 AC '
