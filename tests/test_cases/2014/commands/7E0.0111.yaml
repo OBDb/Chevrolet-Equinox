@@ -1,5 +1,31 @@
 command_id: 7E0.0111
 test_cases:
 - expected_values:
+    TP: 22.7451
+  response: '000 03 41 11 3A '
+- expected_values:
+    TP: 24.70588
+  response: '000 03 41 11 3F '
+- expected_values:
+    TP: 25.4902
+  response: '000 03 41 11 41 '
+- expected_values:
+    TP: 26.27451
+  response: '000 03 41 11 43 '
+- expected_values:
+    TP: 34.90196
+  response: '000 03 41 11 59 '
+- expected_values:
+    TP: 40
+  response: '000 03 41 11 66 '
+- expected_values:
+    TP: 23.13725
+  response: 0000341113B
+- expected_values:
+    TP: 24.31373
+  response: |-
+    0111
+    0000341113E
+- expected_values:
     TP: 36.07843
   response: 7E80341115C

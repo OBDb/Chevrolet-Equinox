@@ -4,8 +4,11 @@ test_cases:
     SHRTFT1: -11.71875
   response: '000 03 41 06 71 '
 - expected_values:
-    SHRTFT1: -1.5625
-  response: '000 03 41 06 7E '
+    SHRTFT1: -0.78125
+  response: '000 03 41 06 7F '
+- expected_values:
+    SHRTFT1: -2.34375
+  response: 0000341067D
 - expected_values:
     SHRTFT1: 0
   response: |-
