@@ -4,6 +4,9 @@ test_cases:
     ECT: 68
   response: '000 03 41 05 6C '
 - expected_values:
+    ECT: 72
+  response: '000 03 41 05 70 '
+- expected_values:
     ECT: 79
   response: |-
     0105
@@ -22,9 +25,6 @@ test_cases:
 - expected_values:
     ECT: 55
   response: '7E8 03 41 05 5F '
-- expected_values:
-    ECT: 56
-  response: '7E8 03 41 05 60 '
 - expected_values:
     ECT: 28
   response: '7E803410544'
