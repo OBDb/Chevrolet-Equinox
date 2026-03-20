@@ -7,6 +7,20 @@ test_cases:
     LOAD_PCT: 25.09804
   response: '000 03 41 04 40 '
 - expected_values:
+    LOAD_PCT: 18.82353
+  response: '00003410430'
+- expected_values:
+    LOAD_PCT: 40.78431
+  response: |-
+    0104
+    00003410468
+- expected_values:
+    LOAD_PCT: 0
+  response: "0104\n7E8 03 41 04 00 "
+- expected_values:
+    LOAD_PCT: 34.90196
+  response: "0104\n7E8 03 41 04 59 "
+- expected_values:
     LOAD_PCT: 43.13725
   response: "01041\n000 03 41 04 6E "
 - expected_values:
@@ -21,9 +35,6 @@ test_cases:
 - expected_values:
     LOAD_PCT: 56.07843
   response: '7E8 03 41 04 8F '
-- expected_values:
-    LOAD_PCT: 94.11765
-  response: '7E8 03 41 04 F0 '
 - expected_values:
     LOAD_PCT: 0
   response: '7E803410400'

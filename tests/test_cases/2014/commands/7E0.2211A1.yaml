@@ -12,6 +12,9 @@ test_cases:
     CHEVROLET_RUNTM: 69
   response: "2211A1\n7E8 05 62 11 A1 00 45 "
 - expected_values:
+    CHEVROLET_RUNTM: 884
+  response: "2211A1\n7E8 05 62 11 A1 03 74 "
+- expected_values:
     CHEVROLET_RUNTM: 765
   response: "2211A11\n7E8 05 62 11 A1 02 FD "
 - expected_values:
