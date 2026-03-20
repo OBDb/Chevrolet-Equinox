@@ -21,14 +21,26 @@ test_cases:
     011F
     00004411F04C5
 - expected_values:
+    RUNTM: 932
+  response: "011F\n7E8 04 41 1F 03 A4 "
+- expected_values:
     RUNTM: 720
   response: 11104411F02D0
 - expected_values:
     RUNTM: 802
   response: 63504411F0322
 - expected_values:
+    RUNTM: 658
+  response: '7E8 04 41 1F 02 92 '
+- expected_values:
+    RUNTM: 796
+  response: '7E8 04 41 1F 03 1C '
+- expected_values:
     RUNTM: 960
   response: '7E8 04 41 1F 03 C0 '
+- expected_values:
+    RUNTM: 1004
+  response: '7E8 04 41 1F 03 EC '
 - expected_values:
     RUNTM: 333
   response: 7E804411F014D
