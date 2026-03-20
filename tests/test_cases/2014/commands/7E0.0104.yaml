@@ -30,11 +30,11 @@ test_cases:
     LOAD_PCT: 62.7451
   response: "01041\n7E8 03 41 04 A0 "
 - expected_values:
+    LOAD_PCT: 100
+  response: '011 03 41 04 FF '
+- expected_values:
     LOAD_PCT: 0
   response: '7E8 03 41 04 00 '
-- expected_values:
-    LOAD_PCT: 56.07843
-  response: '7E8 03 41 04 8F '
 - expected_values:
     LOAD_PCT: 0
   response: '7E803410400'
