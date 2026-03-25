@@ -15,20 +15,25 @@ test_cases:
     CLR_DIST: 509
   response: "0131\n7E8 04 41 31 01 FD "
 - expected_values:
+    CLR_DIST: 98
+  response: |-
+    0131
+    7E80441310062
+- expected_values:
     CLR_DIST: 13
   response: 111044131000D
 - expected_values:
     CLR_DIST: 18
   response: '7E8 04 41 31 00 12 '
 - expected_values:
+    CLR_DIST: 95
+  response: '7E8 04 41 31 00 5F '
+- expected_values:
     CLR_DIST: 510
   response: '7E8 04 41 31 01 FE '
 - expected_values:
     CLR_DIST: 621
   response: '7E8 04 41 31 02 6D '
-- expected_values:
-    CLR_DIST: 623
-  response: '7E8 04 41 31 02 6F '
 - expected_values:
     CLR_DIST: 0
   response: '7E80441310000'
