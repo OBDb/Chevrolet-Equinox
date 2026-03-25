@@ -18,6 +18,9 @@ test_cases:
     0111
     0000341113E
 - expected_values:
+    TP: 25.4902
+  response: '7E8 03 41 11 41 '
+- expected_values:
     TP: 24.70588
   response: 7E80341113F
 - expected_values:
