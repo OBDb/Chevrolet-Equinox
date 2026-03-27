@@ -42,8 +42,8 @@ test_cases:
     RUNTM: 1004
   response: '7E8 04 41 1F 03 EC '
 - expected_values:
-    RUNTM: 168
-  response: 7E804411F00A8
+    RUNTM: 11
+  response: 7E804411F000B
 - expected_values:
     RUNTM: 727
   response: 7E804411F02D7
