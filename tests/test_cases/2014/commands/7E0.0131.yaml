@@ -12,6 +12,9 @@ test_cases:
     0131
     0000441310015
 - expected_values:
+    CLR_DIST: 45
+  response: "0131\n7E8 04 41 31 00 2D "
+- expected_values:
     CLR_DIST: 509
   response: "0131\n7E8 04 41 31 01 FD "
 - expected_values:
