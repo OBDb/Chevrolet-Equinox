@@ -88,6 +88,7 @@ supported_commands_by_ecu:
   - 7E2.7EA.0104
   - 7E2.7EA.0105
   - 7E2.7EA.0106
+  - 7E2.7EA.0110
   - 7E2.7EA.0146
 unsupported_commands_by_ecu:
   "760":
