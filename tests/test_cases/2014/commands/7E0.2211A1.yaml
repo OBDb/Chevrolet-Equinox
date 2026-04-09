@@ -4,6 +4,9 @@ test_cases:
     CHEVROLET_RUNTM: 103
   response: '000 05 62 11 A1 00 67 '
 - expected_values:
+    CHEVROLET_RUNTM: 286
+  response: "2211A1\n000 05 62 11 A1 01 1E "
+- expected_values:
     CHEVROLET_RUNTM: 357
   response: |-
     2211A1
