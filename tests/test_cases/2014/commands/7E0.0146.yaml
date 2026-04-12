@@ -1,6 +1,9 @@
 command_id: 7E0.0146
 test_cases:
 - expected_values:
+    AAT: 17
+  response: "0146\nF39 03 41 46 39 "
+- expected_values:
     AAT: 26
   response: '7E8 03 41 46 42 '
 - expected_values:
