@@ -7,6 +7,9 @@ test_cases:
     TP: 24.70588
   response: '000 03 41 11 3F '
 - expected_values:
+    TP: 25.09804
+  response: '000 03 41 11 40 '
+- expected_values:
     TP: 23.13725
   response: 0000341113B
 - expected_values:
@@ -17,9 +20,6 @@ test_cases:
 - expected_values:
     TP: 25.4902
   response: '7E8 03 41 11 41 '
-- expected_values:
-    TP: 43.92157
-  response: '7E8 03 41 11 70 '
 - expected_values:
     TP: 24.70588
   response: 7E80341113F
