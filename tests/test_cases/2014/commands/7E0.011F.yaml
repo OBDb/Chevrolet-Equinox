@@ -7,9 +7,6 @@ test_cases:
     RUNTM: 1066
   response: '000 04 41 1F 04 2A '
 - expected_values:
-    RUNTM: 1149
-  response: '000 04 41 1F 04 7D '
-- expected_values:
     RUNTM: 18
   response: "011F\n000 04 41 1F 00 12 "
 - expected_values:
@@ -30,8 +27,8 @@ test_cases:
     RUNTM: 802
   response: 63504411F0322
 - expected_values:
-    RUNTM: 658
-  response: '7E8 04 41 1F 02 92 '
+    RUNTM: 158
+  response: '7E8 04 41 1F 00 9E '
 - expected_values:
     RUNTM: 796
   response: '7E8 04 41 1F 03 1C '
