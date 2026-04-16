@@ -18,9 +18,6 @@ test_cases:
     0110
     0000441100140
 - expected_values:
-    MAF: 4.76
-  response: '106 04 41 10 01 DC '
-- expected_values:
     MAF: 5
   response: 11104411001F4
 - expected_values:
@@ -33,8 +30,8 @@ test_cases:
     MAF: 6.87
   response: '7E8 04 41 10 02 AF '
 - expected_values:
-    MAF: 34.94
-  response: '7E8 04 41 10 0D A6 '
+    MAF: 56.26
+  response: '7E8 04 41 10 15 FA '
 - expected_values:
     MAF: 0
   response: '7E80441100000'

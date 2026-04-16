@@ -4,11 +4,11 @@ test_cases:
     AAT: 17
   response: "0146\nF39 03 41 46 39 "
 - expected_values:
-    AAT: 26
-  response: '7E8 03 41 46 42 '
+    AAT: 23
+  response: '7E8 03 41 46 3F '
 - expected_values:
-    AAT: 27
-  response: '7E8 03 41 46 43 '
+    AAT: 24
+  response: '7E8 03 41 46 40 '
 - expected_values:
     AAT: -1
   response: '7E803414627'
