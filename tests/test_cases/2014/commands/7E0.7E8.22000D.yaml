@@ -13,6 +13,9 @@ test_cases:
     CHEVROLET_VSS: 22
   response: '7E8 04 62 00 0D 16 '
 - expected_values:
+    CHEVROLET_VSS: 37
+  response: '7E8 04 62 00 0D 25 '
+- expected_values:
     CHEVROLET_VSS: 92
   response: "7E8 04 62 00 0D 5C \n000 04 62 00 0D 5D "
 - expected_values:
