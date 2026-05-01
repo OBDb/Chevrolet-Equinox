@@ -7,6 +7,9 @@ test_cases:
     FLI: 62.35294
   response: '000 03 41 2F 9F '
 - expected_values:
+    FLI: 86.66667
+  response: 00003412FDD
+- expected_values:
     FLI: 75.68627
   response: |-
     012F
