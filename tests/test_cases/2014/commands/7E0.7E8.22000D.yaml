@@ -77,7 +77,7 @@ test_cases:
     CHEVROLET_VSS: 47
   response: "7EA 04 62 00 0D 2F \n7E8 04 62 00 0D 2F "
 - expected_values:
-    CHEVROLET_VSS: 16
+    CHEVROLET_VSS: 0
   response: |-
-    7EA0462000D10
-    7E80462000D10
+    7EA0462000D00
+    7E80462000D00
