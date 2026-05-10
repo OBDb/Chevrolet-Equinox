@@ -1,0 +1,8 @@
+command_id: DA11.221208|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_MIS_4: 0
+  response: '0000462120800'
+- expected_values:
+    CHEVROLET_MIS_4: 0
+  response: "221208\n000 04 62 12 08 00 "
