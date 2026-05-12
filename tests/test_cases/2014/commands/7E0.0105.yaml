@@ -7,13 +7,19 @@ test_cases:
     ECT: 72
   response: '000 03 41 05 70 '
 - expected_values:
+    ECT: 76
+  response: '00003410574'
+- expected_values:
     ECT: 79
   response: |-
     0105
     00003410577
 - expected_values:
-    ECT: 72
-  response: "0105\n7E8 03 41 05 70 "
+    ECT: 71
+  response: "0105\n7E8 03 41 05 6F "
+- expected_values:
+    ECT: 73
+  response: "0105\n7E8 03 41 05 71 "
 - expected_values:
     ECT: 73
   response: |-
