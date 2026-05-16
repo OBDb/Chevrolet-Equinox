@@ -1,17 +1,14 @@
 command_id: 7E0.0110
 test_cases:
 - expected_values:
-    MAF: 3.44
-  response: '000 04 41 10 01 58 '
+    MAF: 0
+  response: '000 04 41 10 00 00 '
 - expected_values:
     MAF: 3.56
   response: '0000441100164'
 - expected_values:
     MAF: 0
   response: "0110\n000 04 41 10 00 00 "
-- expected_values:
-    MAF: 2.7
-  response: "0110\n000 04 41 10 01 0E "
 - expected_values:
     MAF: 4.5
   response: "0110\n000 04 41 10 01 C2 "
@@ -21,14 +18,28 @@ test_cases:
     0110
     0000441100140
 - expected_values:
-    MAF: 5
-  response: 11104411001F4
+    MAF: 4.48
+  response: |-
+    0110
+    70004411001C0
+- expected_values:
+    MAF: 4.25
+  response: "0110\n7E8 04 41 10 01 A9 "
+- expected_values:
+    MAF: 13.15
+  response: "0110\n7E8 04 41 10 05 23 "
+- expected_values:
+    MAF: 0
+  response: "0110\nNO DATA\n7E8 04 41 10 00 00 "
 - expected_values:
     MAF: 0
   response: '1F2 04 41 10 00 00 '
 - expected_values:
     MAF: 43.29
   response: '63504411010E9'
+- expected_values:
+    MAF: 4.99
+  response: '7E8 04 41 10 01 F3 '
 - expected_values:
     MAF: 6.87
   response: '7E8 04 41 10 02 AF '
@@ -38,3 +49,6 @@ test_cases:
 - expected_values:
     MAF: 0
   response: '7E80441100000'
+- expected_values:
+    MAF: 12.73
+  response: 7E804411004F9
