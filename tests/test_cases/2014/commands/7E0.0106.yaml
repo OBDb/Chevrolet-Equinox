@@ -11,6 +11,9 @@ test_cases:
   response: '00003410678'
 - expected_values:
     SHRTFT1: 0
+  response: "0106\n000 03 41 06 80 "
+- expected_values:
+    SHRTFT1: 0
   response: |-
     0106
     00003410680
@@ -22,6 +25,9 @@ test_cases:
 - expected_values:
     SHRTFT1: -100
   response: "0106\n7E8 03 41 06 00 "
+- expected_values:
+    SHRTFT1: 10.9375
+  response: '45A 03 41 06 8E '
 - expected_values:
     SHRTFT1: -100
   response: '7E8 03 41 06 00 '
