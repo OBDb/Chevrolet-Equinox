@@ -15,6 +15,11 @@ test_cases:
     0104
     00003410468
 - expected_values:
+    LOAD_PCT: 51.76471
+  response: |-
+    0104
+    33603410484
+- expected_values:
     LOAD_PCT: 0
   response: "0104\n7E8 03 41 04 00 "
 - expected_values:
