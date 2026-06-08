@@ -1,0 +1,55 @@
+command_id: DA18.221940|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_TFT: 44
+  response: '000 04 62 19 40 54 '
+- expected_values:
+    CHEVROLET_TFT: 55
+  response: "000 04 62 19 40 5E \n000 04 62 19 40 5F "
+- expected_values:
+    CHEVROLET_TFT: 44
+  response: "221940\n000 04 62 19 40 54 "
+- expected_values:
+    CHEVROLET_TFT: 66
+  response: |-
+    221940
+    7000462194069
+    700046219406A
+- expected_values:
+    CHEVROLET_TFT: 27
+  response: "7E8 04 62 19 40 43 \n7EA 04 62 19 40 43 "
+- expected_values:
+    CHEVROLET_TFT: 38
+  response: '7E8 04 62 19 40 4E '
+- expected_values:
+    CHEVROLET_TFT: 75
+  response: "7E8 04 62 19 40 73 \n7EA 04 62 19 40 74 "
+- expected_values:
+    CHEVROLET_TFT: 78
+  response: "7E8 04 62 19 40 76 \n7EA 04 62 19 40 76 "
+- expected_values:
+    CHEVROLET_TFT: 40
+  response: |-
+    7E80462194050
+    7EA0462194050
+- expected_values:
+    CHEVROLET_TFT: 53
+  response: 7E8046219405D
+- expected_values:
+    CHEVROLET_TFT: 75
+  response: |-
+    7E80462194073
+    7EA0462194073
+- expected_values:
+    CHEVROLET_TFT: 76
+  response: "7EA 04 62 19 40 74 \n7E8 04 62 19 40 74 "
+- expected_values:
+    CHEVROLET_TFT: 33
+  response: |-
+    7EA0462194049
+    7E80462194049
+- expected_values:
+    CHEVROLET_TFT: 54
+  response: |-
+    7EA046219405E
+    7E8046219405E
