@@ -1,0 +1,25 @@
+command_id: DA11.2211EB|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: '000 04 62 11 EB 00 '
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: '01C 04 62 11 EB 00 '
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: '213 04 62 11 EB 00 '
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: "2211EB\n000 04 62 11 EB 00 "
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: |-
+    2211EB
+    000046211EB00
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: "2211EB\n149 04 62 11 EB 00 "
+- expected_values:
+    CHEVROLET_MIS_6: 0
+  response: "2211EB\n212 04 62 11 EB 00 "
