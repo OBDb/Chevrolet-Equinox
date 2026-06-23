@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211A6
+test_cases:
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    2211A6
+    NO DATA
+    7E8046211A600
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: '7E8 04 62 11 A6 00 '
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 2.64
+  response: '7E8 04 62 11 A6 0C '
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 3.96
+  response: '7E8 04 62 11 A6 12 '
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: 7E8046211A600
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 1.54
+  response: 7E8046211A607
