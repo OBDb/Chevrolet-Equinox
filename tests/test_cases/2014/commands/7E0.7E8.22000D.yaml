@@ -4,6 +4,9 @@ test_cases:
     CHEVROLET_VSS: 93
   response: "000 04 62 00 0D 5D \n7E8 04 62 00 0D 5D "
 - expected_values:
+    CHEVROLET_VSS: 54
+  response: "22000D\n7E8 04 62 00 0D 36 "
+- expected_values:
     CHEVROLET_VSS: 91
   response: "22000D\n7E8 04 62 00 0D 5B "
 - expected_values:
@@ -18,13 +21,20 @@ test_cases:
     7E80462000D13
 - expected_values:
     CHEVROLET_VSS: 0
+  response: |-
+    22000D
+    CAN ERROR
+    7E80462000D00
+    7EA0462000D00
+- expected_values:
+    CHEVROLET_VSS: 0
+  response: '7E8 04 62 00 0D 00 '
+- expected_values:
+    CHEVROLET_VSS: 0
+  response: "7E8 04 62 00 0D 00 \n7E8 04 62 00 0D 00 "
+- expected_values:
+    CHEVROLET_VSS: 0
   response: "7E8 04 62 00 0D 00 \n7EA 04 62 00 0D 00 "
-- expected_values:
-    CHEVROLET_VSS: 22
-  response: '7E8 04 62 00 0D 16 '
-- expected_values:
-    CHEVROLET_VSS: 37
-  response: '7E8 04 62 00 0D 25 '
 - expected_values:
     CHEVROLET_VSS: 92
   response: "7E8 04 62 00 0D 5C \n000 04 62 00 0D 5D "
@@ -32,8 +42,14 @@ test_cases:
     CHEVROLET_VSS: 93
   response: '7E8 04 62 00 0D 5D '
 - expected_values:
+    CHEVROLET_VSS: 117
+  response: '7E8 04 62 00 0D 75 '
+- expected_values:
     CHEVROLET_VSS: 128
   response: "7E8 04 62 00 0D 80 \n7EA 04 62 00 0D 80 "
+- expected_values:
+    CHEVROLET_VSS: 131
+  response: "7E8 04 62 00 0D 83 \n7EA 04 62 00 0D 83 "
 - expected_values:
     CHEVROLET_VSS: 0
   response: 7E80462000D00
@@ -61,23 +77,18 @@ test_cases:
     CHEVROLET_VSS: 83
   response: 7E80462000D53
 - expected_values:
-    CHEVROLET_VSS: 116
+    CHEVROLET_VSS: 128
   response: |-
-    7E80462000D74
-    7EA0462000D75
+    7E80462000D80
+    7EA0462000D80
 - expected_values:
-    CHEVROLET_VSS: 119
-  response: |-
-    7E80462000D77
-    7EA0462000D77
-- expected_values:
-    CHEVROLET_VSS: 46
-  response: "7EA 04 62 00 0D 2E \n7E8 04 62 00 0D 2E "
+    CHEVROLET_VSS: 13
+  response: "7EA 04 62 00 0D 0D \n7E8 04 62 00 0D 0D "
 - expected_values:
     CHEVROLET_VSS: 47
   response: "7EA 04 62 00 0D 2F \n7E8 04 62 00 0D 2F "
 - expected_values:
-    CHEVROLET_VSS: 16
+    CHEVROLET_VSS: 0
   response: |-
-    7EA0462000D10
-    7E80462000D10
+    7EA0462000D00
+    7E80462000D00
