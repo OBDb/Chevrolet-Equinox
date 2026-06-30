@@ -7,6 +7,12 @@ test_cases:
     RUNTM: 1066
   response: '000 04 41 1F 04 2A '
 - expected_values:
+    RUNTM: 792
+  response: 00004411F0318
+- expected_values:
+    RUNTM: 1543
+  response: 00004411F0607
+- expected_values:
     RUNTM: 18
   response: "011F\n000 04 41 1F 00 12 "
 - expected_values:
@@ -18,14 +24,11 @@ test_cases:
     011F
     00004411F04C5
 - expected_values:
-    RUNTM: 932
-  response: "011F\n7E8 04 41 1F 03 A4 "
+    RUNTM: 399
+  response: "011F\n7E8 04 41 1F 01 8F "
 - expected_values:
-    RUNTM: 720
-  response: 11104411F02D0
-- expected_values:
-    RUNTM: 802
-  response: 63504411F0322
+    RUNTM: 442
+  response: "011F\n7E8 04 41 1F 01 BA "
 - expected_values:
     RUNTM: 158
   response: '7E8 04 41 1F 00 9E '
@@ -39,8 +42,8 @@ test_cases:
     RUNTM: 1004
   response: '7E8 04 41 1F 03 EC '
 - expected_values:
-    RUNTM: 11
-  response: 7E804411F000B
+    RUNTM: 0
+  response: 7E804411F0000
 - expected_values:
     RUNTM: 486
   response: 7E804411F01E6
