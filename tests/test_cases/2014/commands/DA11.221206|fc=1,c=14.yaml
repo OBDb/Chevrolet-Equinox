@@ -1,0 +1,19 @@
+command_id: DA11.221206|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_MIS_1: 0
+  response: '000 04 62 12 06 00 '
+- expected_values:
+    CHEVROLET_MIS_1: 0
+  response: '0000462120600'
+- expected_values:
+    CHEVROLET_MIS_1: 0
+  response: |-
+    221206
+    0000462120600
+- expected_values:
+    CHEVROLET_MIS_1: 0
+  response: '400 04 62 12 06 00 '
+- expected_values:
+    CHEVROLET_MIS_1: 0
+  response: '6810462120600'
