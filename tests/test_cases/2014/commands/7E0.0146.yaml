@@ -4,6 +4,25 @@ test_cases:
     AAT: 13
   response: '000 03 41 46 35 '
 - expected_values:
+    AAT: 30
+  response: |-
+    0146
+    20503414646
+- expected_values:
+    AAT: 29
+  response: "0146\n7E8 03 41 46 45 "
+- expected_values:
+    AAT: 28
+  response: |-
+    0146
+    7E803414644
+- expected_values:
+    AAT: 31
+  response: |-
+    0146
+    CAN ERROR
+    68203414647
+- expected_values:
     AAT: 17
   response: "0146\nF39 03 41 46 39 "
 - expected_values:
@@ -19,5 +38,5 @@ test_cases:
     AAT: -1
   response: '7E803414627'
 - expected_values:
-    AAT: 26
-  response: '7E803414642'
+    AAT: 36
+  response: 7E80341464C
