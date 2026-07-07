@@ -1,11 +1,20 @@
 command_id: 7E0.011F
 test_cases:
 - expected_values:
-    RUNTM: 875
-  response: '000 04 41 1F 03 6B '
+    RUNTM: 238
+  response: '000 04 41 1F 00 EE '
+- expected_values:
+    RUNTM: 320
+  response: '000 04 41 1F 01 40 '
 - expected_values:
     RUNTM: 1066
   response: '000 04 41 1F 04 2A '
+- expected_values:
+    RUNTM: 629
+  response: 00004411F0275
+- expected_values:
+    RUNTM: 746
+  response: 00004411F02EA
 - expected_values:
     RUNTM: 18
   response: "011F\n000 04 41 1F 00 12 "
@@ -18,14 +27,24 @@ test_cases:
     011F
     00004411F04C5
 - expected_values:
-    RUNTM: 932
-  response: "011F\n7E8 04 41 1F 03 A4 "
+    RUNTM: 399
+  response: "011F\n7E8 04 41 1F 01 8F "
 - expected_values:
-    RUNTM: 720
-  response: 11104411F02D0
+    RUNTM: 442
+  response: "011F\n7E8 04 41 1F 01 BA "
 - expected_values:
-    RUNTM: 802
-  response: 63504411F0322
+    RUNTM: 911
+  response: |-
+    011F
+    7E804411F038F
+- expected_values:
+    RUNTM: 948
+  response: |-
+    011F
+    7E804411F03B4
+- expected_values:
+    RUNTM: 710
+  response: "011F\nCAN ERROR\n205 04 41 1F 02 C6 "
 - expected_values:
     RUNTM: 158
   response: '7E8 04 41 1F 00 9E '
@@ -33,14 +52,8 @@ test_cases:
     RUNTM: 796
   response: '7E8 04 41 1F 03 1C '
 - expected_values:
-    RUNTM: 960
-  response: '7E8 04 41 1F 03 C0 '
+    RUNTM: 0
+  response: 7E804411F0000
 - expected_values:
-    RUNTM: 1004
-  response: '7E8 04 41 1F 03 EC '
-- expected_values:
-    RUNTM: 11
-  response: 7E804411F000B
-- expected_values:
-    RUNTM: 486
-  response: 7E804411F01E6
+    RUNTM: 1808
+  response: 7E804411F0710
