@@ -1,0 +1,57 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    CHEVROLET_RUNTM: 103
+  response: '000 05 62 11 A1 00 67 '
+- expected_values:
+    CHEVROLET_RUNTM: 495
+  response: '000 05 62 11 A1 01 EF '
+- expected_values:
+    CHEVROLET_RUNTM: 489
+  response: 000056211A101E9
+- expected_values:
+    CHEVROLET_RUNTM: 286
+  response: "2211A1\n000 05 62 11 A1 01 1E "
+- expected_values:
+    CHEVROLET_RUNTM: 357
+  response: |-
+    2211A1
+    000056211A10165
+- expected_values:
+    CHEVROLET_RUNTM: 393
+  response: "2211A1\n03B 05 62 11 A1 01 89 "
+- expected_values:
+    CHEVROLET_RUNTM: 69
+  response: "2211A1\n7E8 05 62 11 A1 00 45 "
+- expected_values:
+    CHEVROLET_RUNTM: 817
+  response: "2211A1\n7E8 05 62 11 A1 03 31 "
+- expected_values:
+    CHEVROLET_RUNTM: 951
+  response: |-
+    2211A1
+    7E8056211A103B7
+- expected_values:
+    CHEVROLET_RUNTM: 669
+  response: "2211A1\nCAN ERROR\n7E8 05 62 11 A1 02 9D "
+- expected_values:
+    CHEVROLET_RUNTM: 15
+  response: |-
+    2211A1
+    NO DATA
+    7E8056211A1000F
+- expected_values:
+    CHEVROLET_RUNTM: 765
+  response: "2211A11\n7E8 05 62 11 A1 02 FD "
+- expected_values:
+    CHEVROLET_RUNTM: 0
+  response: '7E8 05 62 11 A1 00 00 '
+- expected_values:
+    CHEVROLET_RUNTM: 0
+  response: 7E8056211A10000
+- expected_values:
+    CHEVROLET_RUNTM: 1021
+  response: 7E8056211A103FD
+- expected_values:
+    CHEVROLET_RUNTM: 1539
+  response: 7E8056211A10603
