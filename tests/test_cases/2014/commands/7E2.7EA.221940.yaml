@@ -1,0 +1,56 @@
+command_id: 7E2.7EA.221940
+test_cases:
+- expected_values:
+    CHEVROLET_ATF_T: 38
+  response: "221940\n7EA 04 62 19 40 4E "
+- expected_values:
+    CHEVROLET_ATF_T: 75
+  response: |-
+    221940
+    NO DATA
+    7E80462194072
+    7EA0462194073
+- expected_values:
+    CHEVROLET_ATF_T: 27
+  response: "7E8 04 62 19 40 43 \n7EA 04 62 19 40 43 "
+- expected_values:
+    CHEVROLET_ATF_T: 55
+  response: "7E8 04 62 19 40 5E \n7EA 04 62 19 40 5F "
+- expected_values:
+    CHEVROLET_ATF_T: 56
+  response: "7E8 04 62 19 40 60 \n7EA 04 62 19 40 60 "
+- expected_values:
+    CHEVROLET_ATF_T: 76
+  response: "7E8 04 62 19 40 73 \n7EA 04 62 19 40 74 "
+- expected_values:
+    CHEVROLET_ATF_T: 78
+  response: "7E8 04 62 19 40 76 \n7EA 04 62 19 40 76 "
+- expected_values:
+    CHEVROLET_ATF_T: 40
+  response: |-
+    7E80462194050
+    7EA0462194050
+- expected_values:
+    CHEVROLET_ATF_T: 72
+  response: |-
+    7E8046219406F
+    7EA0462194070
+- expected_values:
+    CHEVROLET_ATF_T: 86
+  response: |-
+    7E8046219407E
+    7EA046219407E
+- expected_values:
+    CHEVROLET_ATF_T: 50
+  response: "7EA 04 62 19 40 5A \n7E8 04 62 19 40 59 "
+- expected_values:
+    CHEVROLET_ATF_T: 76
+  response: '7EA 04 62 19 40 74 '
+- expected_values:
+    CHEVROLET_ATF_T: 77
+  response: '7EA 04 62 19 40 75 '
+- expected_values:
+    CHEVROLET_ATF_T: 33
+  response: |-
+    7EA0462194049
+    7E80462194049
