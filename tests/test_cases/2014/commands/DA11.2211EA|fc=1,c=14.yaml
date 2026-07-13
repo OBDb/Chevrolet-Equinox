@@ -1,0 +1,30 @@
+command_id: DA11.2211EA|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: '000 04 62 11 EA 00 '
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: 000046211EA00
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: "2211EA\n000 04 62 11 EA 00 "
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: "2211EA\n149 04 62 11 EA 00 "
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: |-
+    2211EA
+    176046211EA00
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: |-
+    2211EA
+    700046211EA00
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: 635046211EA00
+- expected_values:
+    CHEVROLET_MIS_5: 0
+  response: '7EA 04 62 11 EA 00 '
