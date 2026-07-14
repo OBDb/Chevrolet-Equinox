@@ -1,0 +1,20 @@
+command_id: DA11.222344|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '000 04 62 23 44 00 '
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '0000462234400'
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '0410462234400'
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '2060462234400'
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '5780462234400'
+- expected_values:
+    CHEVROLET_EO_AP: 0
+  response: '7EA 04 62 23 44 00 '
