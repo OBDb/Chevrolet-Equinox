@@ -1,0 +1,43 @@
+command_id: 7E0.7E8.221207
+test_cases:
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: "\x12\n7E8 04 62 12 07 00 "
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: "221207\n7E8 04 62 12 07 00 "
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: |-
+    221207
+    7E80462120700
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: |-
+    221207
+    CAN ERROR
+    7E80462120700
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: |-
+    221207
+    NO DATA
+    7E80462120700
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: |-
+    221207
+    UNABLE TO CONNECT
+    7E80462120700
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: '7E8 04 62 12 07 00 '
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 2
+  response: '7E8 04 62 12 07 02 '
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 0
+  response: '7E80462120700'
+- expected_values:
+    CHEVROLET_MISFIRES_C3_CUR: 2
+  response: '7E80462120702'
