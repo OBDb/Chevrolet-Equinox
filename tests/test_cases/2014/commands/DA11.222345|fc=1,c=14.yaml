@@ -1,0 +1,20 @@
+command_id: DA11.222345|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '000 04 62 23 45 00 '
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '0000462234500'
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '0AE 04 62 23 45 00 '
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '2000462234500'
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '6350462234500'
+- expected_values:
+    CHEVROLET_EOP_ACT: 0
+  response: '733 04 62 23 45 00 '
