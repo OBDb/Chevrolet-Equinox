@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.222344
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_ABS: 92
+  response: '7E80462234417'
+- expected_values:
+    CHEVROLET_EOP_ABS: 96
+  response: '7E80462234418'
+- expected_values:
+    CHEVROLET_EOP_ABS: 212
+  response: '7E80462234435'
+- expected_values:
+    CHEVROLET_EOP_ABS: 224
+  response: '7E80462234438'
+- expected_values:
+    CHEVROLET_EOP_ABS: 264
+  response: '7E80462234442'
+- expected_values:
+    CHEVROLET_EOP_ABS: 280
+  response: '7E80462234446'
+- expected_values:
+    CHEVROLET_EOP_ABS: 464
+  response: '7E80462234474'
+- expected_values:
+    CHEVROLET_EOP_ABS: 560
+  response: 7E8046223448C
+- expected_values:
+    CHEVROLET_EOP_ABS: 580
+  response: '7E80462234491'
