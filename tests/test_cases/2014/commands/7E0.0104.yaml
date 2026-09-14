@@ -1,0 +1,62 @@
+command_id: 7E0.0104
+test_cases:
+- expected_values:
+    LOAD_PCT: 12.54902
+  response: '000 03 41 04 20 '
+- expected_values:
+    LOAD_PCT: 43.52941
+  response: '000 03 41 04 6F '
+- expected_values:
+    LOAD_PCT: 12.94118
+  response: '00003410421'
+- expected_values:
+    LOAD_PCT: 16.47059
+  response: "0104\n000 03 41 04 2A "
+- expected_values:
+    LOAD_PCT: 40.78431
+  response: |-
+    0104
+    00003410468
+- expected_values:
+    LOAD_PCT: 86.27451
+  response: |-
+    0104
+    480034104DC
+- expected_values:
+    LOAD_PCT: 0
+  response: "0104\n7E8 03 41 04 00 "
+- expected_values:
+    LOAD_PCT: 100
+  response: "0104\n7E8 03 41 04 FF "
+- expected_values:
+    LOAD_PCT: 0
+  response: |-
+    0104
+    7E803410400
+- expected_values:
+    LOAD_PCT: 43.13725
+  response: "01041\n000 03 41 04 6E "
+- expected_values:
+    LOAD_PCT: 100
+  response: "01041\n000 03 41 04 FF "
+- expected_values:
+    LOAD_PCT: 62.7451
+  response: "01041\n7E8 03 41 04 A0 "
+- expected_values:
+    LOAD_PCT: 17.2549
+  response: 0E80341042C
+- expected_values:
+    LOAD_PCT: 0
+  response: '7E8 03 41 04 00 '
+- expected_values:
+    LOAD_PCT: 0
+  response: '7E803410400'
+- expected_values:
+    LOAD_PCT: 100
+  response: 7E8034104FF
+- expected_values:
+    LOAD_PCT: 19.21569
+  response: 'C52 03 41 04 31 '
+- expected_values:
+    LOAD_PCT: 26.66667
+  response: "SEARCHING...\n7E8 03 41 04 44 "
