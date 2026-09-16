@@ -1,0 +1,59 @@
+command_id: 7E0.011F
+test_cases:
+- expected_values:
+    RUNTM: 238
+  response: '000 04 41 1F 00 EE '
+- expected_values:
+    RUNTM: 320
+  response: '000 04 41 1F 01 40 '
+- expected_values:
+    RUNTM: 1066
+  response: '000 04 41 1F 04 2A '
+- expected_values:
+    RUNTM: 629
+  response: 00004411F0275
+- expected_values:
+    RUNTM: 746
+  response: 00004411F02EA
+- expected_values:
+    RUNTM: 18
+  response: "011F\n000 04 41 1F 00 12 "
+- expected_values:
+    RUNTM: 1399
+  response: "011F\n000 04 41 1F 05 77 "
+- expected_values:
+    RUNTM: 1221
+  response: |-
+    011F
+    00004411F04C5
+- expected_values:
+    RUNTM: 399
+  response: "011F\n7E8 04 41 1F 01 8F "
+- expected_values:
+    RUNTM: 442
+  response: "011F\n7E8 04 41 1F 01 BA "
+- expected_values:
+    RUNTM: 911
+  response: |-
+    011F
+    7E804411F038F
+- expected_values:
+    RUNTM: 948
+  response: |-
+    011F
+    7E804411F03B4
+- expected_values:
+    RUNTM: 710
+  response: "011F\nCAN ERROR\n205 04 41 1F 02 C6 "
+- expected_values:
+    RUNTM: 158
+  response: '7E8 04 41 1F 00 9E '
+- expected_values:
+    RUNTM: 796
+  response: '7E8 04 41 1F 03 1C '
+- expected_values:
+    RUNTM: 0
+  response: 7E804411F0000
+- expected_values:
+    RUNTM: 2867
+  response: 7E804411F0B33
