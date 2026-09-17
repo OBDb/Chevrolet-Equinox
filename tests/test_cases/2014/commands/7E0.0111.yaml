@@ -1,0 +1,56 @@
+command_id: 7E0.0111
+test_cases:
+- expected_values:
+    TP: 22.7451
+  response: '000 03 41 11 3A '
+- expected_values:
+    TP: 24.70588
+  response: '000 03 41 11 3F '
+- expected_values:
+    TP: 25.09804
+  response: '000 03 41 11 40 '
+- expected_values:
+    TP: 23.13725
+  response: 0000341113B
+- expected_values:
+    TP: 23.52941
+  response: "0111\n000 03 41 11 3C "
+- expected_values:
+    TP: 24.31373
+  response: |-
+    0111
+    0000341113E
+- expected_values:
+    TP: 36.07843
+  response: |-
+    0111
+    0000341115C
+- expected_values:
+    TP: 26.27451
+  response: |-
+    0111
+    33603411143
+- expected_values:
+    TP: 36.86275
+  response: "0111\n552 03 41 11 5E "
+- expected_values:
+    TP: 25.09804
+  response: "0111\n7E8 03 41 11 40 "
+- expected_values:
+    TP: 25.4902
+  response: |-
+    0111
+    CAN ERROR
+    7E803411141
+- expected_values:
+    TP: 32.54902
+  response: '059 03 41 11 53 '
+- expected_values:
+    TP: 26.27451
+  response: 1EA03411143
+- expected_values:
+    TP: 21.56863
+  response: '7E8 03 41 11 37 '
+- expected_values:
+    TP: 54.90196
+  response: 7E80341118C
