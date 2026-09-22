@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221C1B
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_CALC: 0
+  response: 7E804621C1B00
+- expected_values:
+    CHEVROLET_EOP_CALC: 152
+  response: 7E804621C1B26
+- expected_values:
+    CHEVROLET_EOP_CALC: 156
+  response: 7E804621C1B27
+- expected_values:
+    CHEVROLET_EOP_CALC: 160
+  response: 7E804621C1B28
+- expected_values:
+    CHEVROLET_EOP_CALC: 192
+  response: 7E804621C1B30
+- expected_values:
+    CHEVROLET_EOP_CALC: 380
+  response: 7E804621C1B5F
+- expected_values:
+    CHEVROLET_EOP_CALC: 472
+  response: 7E804621C1B76
+- expected_values:
+    CHEVROLET_EOP_CALC: 524
+  response: 7E804621C1B83
