@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.223201
+test_cases:
+- expected_values:
+    CHEVROLET_CURRENT_GEAR_VAR_3: 3
+  response: '7E80462320103'
+- expected_values:
+    CHEVROLET_CURRENT_GEAR_VAR_3: 4
+  response: '7E80462320104'
+- expected_values:
+    CHEVROLET_CURRENT_GEAR_VAR_3: 5
+  response: '7E80462320105'
+- expected_values:
+    CHEVROLET_CURRENT_GEAR_VAR_3: 6
+  response: '7E80462320106'
