@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.22135F
+test_cases:
+- expected_values:
+    CHEVROLET_MIL_CAUSE: 151
+  response: |-
+    7E80462135F97
+    7EA0462135FBF
+- expected_values:
+    CHEVROLET_MIL_CAUSE: 151
+  response: |-
+    7EA0462135FBF
+    7E80462135F97
