@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.221564
+test_cases:
+- expected_values:
+    CHEVROLET_AC_HIGH_SIDE_P: 68.68
+    CHEVROLET_CABIN_AC_HIGH_SIDE_P: 34
+  response: '7E80462156422'
+- expected_values:
+    CHEVROLET_AC_HIGH_SIDE_P: 70.7
+    CHEVROLET_CABIN_AC_HIGH_SIDE_P: 35
+  response: '7E80462156423'
+- expected_values:
+    CHEVROLET_AC_HIGH_SIDE_P: 72.72
+    CHEVROLET_CABIN_AC_HIGH_SIDE_P: 36
+  response: '7E80462156424'
+- expected_values:
+    CHEVROLET_AC_HIGH_SIDE_P: 76.76
+    CHEVROLET_CABIN_AC_HIGH_SIDE_P: 38
+  response: '7E80462156426'
