@@ -47,6 +47,9 @@ test_cases:
     CHEVROLET_ATF_T_VAR_1: 39
   response: '7E8 04 62 19 40 4F '
 - expected_values:
+    CHEVROLET_ATF_T_VAR_1: 49
+  response: "7E8 04 62 19 40 59 \n7EA 04 62 19 40 59 "
+- expected_values:
     CHEVROLET_ATF_T_VAR_1: 56
   response: "7E8 04 62 19 40 60 \n7EA 04 62 19 40 60 "
 - expected_values:
@@ -76,15 +79,15 @@ test_cases:
     CHEVROLET_ATF_T_VAR_1: 29
   response: '7E80462194045'
 - expected_values:
-    CHEVROLET_ATF_T_VAR_1: 32
-  response: |-
-    7E80462194048
-    7EA0462194049
-- expected_values:
     CHEVROLET_ATF_T_VAR_1: 40
   response: |-
     7E80462194050
     0000462194050
+- expected_values:
+    CHEVROLET_ATF_T_VAR_1: 41
+  response: |-
+    7E80462194051
+    7EA0462194052
 - expected_values:
     CHEVROLET_ATF_T_VAR_1: 54
   response: |-
