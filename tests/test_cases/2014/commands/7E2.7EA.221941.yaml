@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CHEVROLET_TRANS_ISS: 2759.5
   response: 7EA056219412B1E
+- expected_values:
+    CHEVROLET_TRANS_ISS: 4014
+  response: 7EA056219413EB8

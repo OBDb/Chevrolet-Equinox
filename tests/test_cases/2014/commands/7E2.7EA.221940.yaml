@@ -42,10 +42,10 @@ test_cases:
     7E8046219403C
     7EA046219403C
 - expected_values:
-    CHEVROLET_ATF_T: 27
+    CHEVROLET_ATF_T: 33
   response: |-
-    7E80462194043
-    7EA0462194043
+    7E80462194048
+    7EA0462194049
 - expected_values:
     CHEVROLET_ATF_T: 40
   response: |-
