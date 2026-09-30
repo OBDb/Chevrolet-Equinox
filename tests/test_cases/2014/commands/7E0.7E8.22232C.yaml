@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22232C
+test_cases:
+- expected_values:
+    CHEVROLET_AIR_TEMP_AMBIENT_2: 23
+  response: 7E80462232C3F
+- expected_values:
+    CHEVROLET_AIR_TEMP_AMBIENT_2: 24
+  response: 7E80462232C40
