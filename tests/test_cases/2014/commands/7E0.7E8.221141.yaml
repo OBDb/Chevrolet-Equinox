@@ -1,6 +1,14 @@
 command_id: 7E0.7E8.221141
 test_cases:
 - expected_values:
+    CHEVROLET_IGN_1_V: 13.7
+  response: "7E8 04 62 11 41 89 \n7EA 04 62 11 41 88 "
+- expected_values:
+    CHEVROLET_IGN_1_V: 14.5
+  response: |-
+    7E80462114191
+    7EA0462114190
+- expected_values:
     CHEVROLET_IGN_1_V: 14.4
   response: |-
     7E80462114193
