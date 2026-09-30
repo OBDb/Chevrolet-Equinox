@@ -4,6 +4,17 @@ test_cases:
     CHEVROLET_IGN_1_V: 13.7
   response: "7E8 04 62 11 41 89 \n7EA 04 62 11 41 88 "
 - expected_values:
+    CHEVROLET_IGN_1_V: 14.3
+  response: "7E8 04 62 11 41 8F \n7EA 04 62 11 41 8E "
+- expected_values:
+    CHEVROLET_IGN_1_V: 14.4
+  response: "7E8 04 62 11 41 90 \n7EA 04 62 11 41 8E "
+- expected_values:
+    CHEVROLET_IGN_1_V: 14.4
+  response: |-
+    7E80462114190
+    7EA046211418E
+- expected_values:
     CHEVROLET_IGN_1_V: 14.5
   response: |-
     7E80462114191
@@ -13,3 +24,6 @@ test_cases:
   response: |-
     7E80462114193
     7E80462114190
+- expected_values:
+    CHEVROLET_IGN_1_V: 14.4
+  response: "7EA 04 62 11 41 8E \n7E8 04 62 11 41 90 "
