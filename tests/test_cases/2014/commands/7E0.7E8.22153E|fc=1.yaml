@@ -1,0 +1,34 @@
+command_id: 7E0.7E8.22153E|fc=1
+test_cases:
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: "22153E\n7E8 04 62 15 3E 00 "
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: |-
+    22153E
+    7E80462153E00
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: "22153E\nNO DATA\n7E8 04 62 15 3E 00 "
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: '7E8 04 62 15 3E 00 '
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: 7E80462153E00
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: "SEARCHING...\n7E8 04 62 15 3E 00 "
+- expected_values:
+    CHEVROLET_EOT_ALT: 0
+    CHEVROLET_EOT_DA11: 0
+  response: |-
+    SEARCHING...
+    7E80462153E00

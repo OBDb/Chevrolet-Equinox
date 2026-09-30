@@ -1,0 +1,24 @@
+command_id: 7E0.7E8.222344
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: "222344\n7E8 04 62 23 44 00 "
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: |-
+    222344
+    7E80462234400
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: '7E8 04 62 23 44 00 '
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: '7E80462234400'
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: "SEARCHING...\n7E8 04 62 23 44 00 "
+- expected_values:
+    CHEVROLET_EOP_ABS: 0
+  response: |-
+    SEARCHING...
+    7E80462234400
