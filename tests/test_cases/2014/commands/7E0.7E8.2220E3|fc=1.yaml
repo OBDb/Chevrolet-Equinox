@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.2220E3|fc=1
+test_cases:
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: "2220E3\n7E8 05 62 20 E3 00 00 "
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: "2220E3\nSEARCHING...\n7E8 05 62 20 E3 00 00 "
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: '7E8 05 62 20 E3 00 00 '
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: 7E8056220E30000
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: "SEARCHING...\n7E8 05 62 20 E3 00 00 "
+- expected_values:
+    CHEVROLET_BP_ACT: 0
+  response: |-
+    SEARCHING...
+    7E8056220E30000
