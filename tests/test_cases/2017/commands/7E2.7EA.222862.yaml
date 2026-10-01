@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.222862
+test_cases:
+- expected_values:
+    EQUINOX_TRANS_P: 4400
+  response: 7EA056228621130
+- expected_values:
+    EQUINOX_TRANS_P: 7164
+  response: 7EA056228621BFC
+- expected_values:
+    EQUINOX_TRANS_P: 8724
+  response: 7EA056228622214
+- expected_values:
+    EQUINOX_TRANS_P: 11200
+  response: 7EA056228622BC0

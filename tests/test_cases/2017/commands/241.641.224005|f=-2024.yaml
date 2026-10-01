@@ -1,0 +1,5 @@
+command_id: 241.641.224005|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_TID_FL: 2014722077
+  response: 641076240057816381D
