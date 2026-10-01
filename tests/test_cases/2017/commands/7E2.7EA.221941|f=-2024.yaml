@@ -7,5 +7,5 @@ test_cases:
     EQUINOX_TRANS_ISS: 3454.5
   response: 7EA0562194135FA
 - expected_values:
-    EQUINOX_TRANS_ISS: 4320.5
-  response: 7EA056219414382
+    EQUINOX_TRANS_ISS: 4496.25
+  response: 7EA056219414641
