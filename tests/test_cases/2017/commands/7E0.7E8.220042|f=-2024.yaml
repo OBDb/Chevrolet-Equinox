@@ -7,5 +7,5 @@ test_cases:
     EQUINOX_M_CTRL_MODULE_V: 13.818
   response: 7E80562004235FA
 - expected_values:
-    EQUINOX_M_CTRL_MODULE_V: 14.086
-  response: '7E8056200423706'
+    EQUINOX_M_CTRL_MODULE_V: 14.391
+  response: '7E8056200423837'
