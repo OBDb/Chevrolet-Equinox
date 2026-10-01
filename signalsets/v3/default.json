@@ -75,7 +75,7 @@
   "signals": [
     {"id": "EQUINOX_IGN_1_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Ignition 1 voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1144"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1144"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "EQUINOX_CABIN_AC_HIGH_SIDE_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cabin A/C high side sensor voltage"}
   ]},
@@ -91,7 +91,7 @@
   "signals": [
     {"id": "EQUINOX_EOT_CALC", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "EQUINOX_EOP_2", "path": "Engine", "fmt": { "len": 8, "max": 131.39, "min": -21.6, "mul": 3, "div": 5, "add": -21.6, "nullmax": 131.39, "unit": "psi" }, "name": "Engine oil pressure 2", "description": "Reads 0 psi at the sensor's zero-pressure floor, raw 36; the 0.6 psi slope is not yet checked against a gauge."}
   ]},
@@ -287,7 +287,7 @@
   "signals": [
     {"id": "EQUINOX_2_3_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "2-3 shift time"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1995"}, "freq": 1, "filter": { "to": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1995"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "EQUINOX_3_4_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "3-4 shift time"}
   ]},

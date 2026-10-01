@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221144|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.1
+  response: '7E80462114437'
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.14
+  response: '7E80462114439'
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.18
+  response: 7E8046211443B
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.2
+  response: 7E8046211443C
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.24
+  response: 7E8046211443E
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.34
+  response: '7E80462114443'
+- expected_values:
+    EQUINOX_CABIN_AC_HIGH_SIDE_V: 1.36
+  response: '7E80462114444'
