@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221940|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_ATF_T_VAR_1: 73
+  response: "7E8 04 62 19 40 71 \n7EA 04 62 19 40 71 "
+- expected_values:
+    EQUINOX_ATF_T_VAR_1: 73
+  response: "7E8 04 62 19 40 71 \n7EA 04 62 19 40 72 "
+- expected_values:
+    EQUINOX_ATF_T_VAR_1: 72
+  response: "7EA 04 62 19 40 71 \n7E8 04 62 19 40 70 "

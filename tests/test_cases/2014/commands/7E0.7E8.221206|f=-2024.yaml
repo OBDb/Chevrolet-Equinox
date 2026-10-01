@@ -1,0 +1,37 @@
+command_id: 7E0.7E8.221206|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: "221206\n7E8 04 62 12 06 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: |-
+    221206
+    7E80462120600
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: "221206\nCAN ERROR\n7E8 04 62 12 06 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: |-
+    221206
+    CAN ERROR
+    7E80462120600
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: "221206\nNO DATA\n7E8 04 62 12 06 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: '7E8 04 62 12 06 00 '
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 2
+  response: '7E8 04 62 12 06 02 '
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: '7E80462120600'
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 2
+  response: '7E80462120602'
+- expected_values:
+    EQUINOX_MISFIRES_C1_CUR: 0
+  response: "SEARCHING...\n7E8 04 62 12 06 00 "

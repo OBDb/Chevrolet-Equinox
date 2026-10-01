@@ -1,0 +1,45 @@
+command_id: 7E0.7E8.2211EA|f=-2017
+test_cases:
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "2211EA\n7E8 04 62 11 EA 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: |-
+    2211EA
+    7E8046211EA00
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: |-
+    2211EA
+    CAN ERROR
+    7E8046211EA00
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "2211EA\nNO DATA\n7E8 04 62 11 EA 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: |-
+    2211EA
+    NO DATA
+    7E8046211EA00
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: '7E8 04 62 11 EA 00 '
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: 7E8046211EA00
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "> 7E0.7E8.2211EA\n2211EA\n7E8 04 62 11 EA 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "CAN ERROR\n> 7E7.7EF.224196\nCAN ERROR\nNO DATA\n> 7E7.7EF.224219\nCAN
+    ERROR\nNO DATA\n> 7E7.7EF.22423B\nCAN ERROR\nNO DATA\n> 7E0.7E8.2211EA\n7E8 04
+    62 11 EA 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "NO DATA\n> 7E0.7E8.2211EA\n7E8 04 62 11 EA 00 "
+- expected_values:
+    EQUINOX_MISFIRES_C5_CUR: 0
+  response: "SEARCHING...\n7E8 04 62 11 EA 00 "

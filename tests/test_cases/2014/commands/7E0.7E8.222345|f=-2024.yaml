@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222345|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_EOP: 0
+  response: '7E8 04 62 23 45 00 '
+- expected_values:
+    EQUINOX_EOP: 0
+  response: '7E80462234500'
+- expected_values:
+    EQUINOX_EOP: 0
+  response: |-
+    BUS INIT:  . . .UNABLE TO CONNECT
+    CAN ERROR
+    > DA11.2AF111.220078|fc=1,c=14
+    BUS INIT:  . . .UNABLE TO CONNECT
+    CAN ERROR
+    > 7E0.7E8.222345
+    7E80462234500
+- expected_values:
+    EQUINOX_EOP: 0
+  response: "SEARCHING...\n7E8 04 62 23 45 00 "
+- expected_values:
+    EQUINOX_EOP: 0
+  response: |-
+    SEARCHING...
+    7E80462234500

@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221564|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 68.68
+  response: '7E80462156422'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 70.7
+  response: '7E80462156423'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 72.72
+  response: '7E80462156424'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 76.76
+  response: '7E80462156426'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 113.12
+  response: '7E80462156438'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 135.34
+  response: '7E80462156443'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 149.48
+  response: 7E8046215644A
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 175.74
+  response: '7E80462156457'

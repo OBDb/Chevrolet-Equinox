@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22002F|fc=1,f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_FLI: 42.35294
+  response: 7E80462002F6C
+- expected_values:
+    EQUINOX_FLI: 98.82353
+  response: 7E80462002FFC

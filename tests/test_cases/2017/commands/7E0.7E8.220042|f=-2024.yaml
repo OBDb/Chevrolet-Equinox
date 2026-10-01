@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220042|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_M_CTRL_MODULE_V: 0
+  response: '7E8056200420000'
+- expected_values:
+    EQUINOX_M_CTRL_MODULE_V: 13.818
+  response: 7E80562004235FA
+- expected_values:
+    EQUINOX_M_CTRL_MODULE_V: 14.086
+  response: '7E8056200423706'
