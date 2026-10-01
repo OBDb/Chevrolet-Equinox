@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222067|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_CRUISE_CTRL_STAT: 144
+  response: '7E80462206790'

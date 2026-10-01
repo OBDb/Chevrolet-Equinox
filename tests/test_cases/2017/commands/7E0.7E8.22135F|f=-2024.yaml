@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22135F|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_MIL_CAUSE: 15
+  response: 7E80462135F0F
+- expected_values:
+    EQUINOX_MIL_CAUSE: 51
+  response: 7E80462135F33
+- expected_values:
+    EQUINOX_MIL_CAUSE: 61
+  response: 7E80462135F3D

@@ -1,0 +1,48 @@
+command_id: 7E2.7EA.221991|fc=1,f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 15.625
+  response: "221991\n7EA 05 62 19 91 00 7D "
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 30.375
+  response: "221991\n7EA 05 62 19 91 00 F3 "
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 253.125
+  response: "221991\n7EA 05 62 19 91 07 E9 "
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 15.625
+  response: |-
+    221991
+    7EA05621991007D
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: -74.5
+  response: |-
+    221991
+    7EA05621991FDAC
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 0
+  response: '7EA 05 62 19 91 00 00 '
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 113.875
+  response: '7EA 05 62 19 91 03 8F '
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: -27.75
+  response: '7EA 05 62 19 91 FF 22 '
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 14.375
+  response: 7EA056219910073
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 94.125
+  response: 7EA0562199102F1
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 192
+  response: 7EA056219910600
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: -25.625
+  response: 7EA05621991FF33
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: 71.25
+  response: "SEARCHING...\n7EA 05 62 19 91 02 3A "
+- expected_values:
+    EQUINOX_TC_SLIP_VSS: -0.25
+  response: "SEARCHING...\n7EA 05 62 19 91 FF FE "

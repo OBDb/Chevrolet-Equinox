@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.221940|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_ATF_T: 36
+  response: 7EA046219404C

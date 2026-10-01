@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221564|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 96.96
+  response: '7E80462156430'
+- expected_values:
+    EQUINOX_AC_HIGH_SIDE_P: 252.5
+  response: 7E8046215647D

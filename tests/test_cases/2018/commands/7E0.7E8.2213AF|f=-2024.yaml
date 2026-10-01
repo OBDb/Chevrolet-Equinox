@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213AF|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_COOLING_FAN_MOTOR_CMD: 0
+  response: 7E8046213AF00
+- expected_values:
+    EQUINOX_COOLING_FAN_MOTOR_CMD: 45.88235
+  response: 7E8046213AF75

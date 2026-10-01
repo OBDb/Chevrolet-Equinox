@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222344|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_EOP_ABS: 76
+  response: '7E80462234413'
+- expected_values:
+    EQUINOX_EOP_ABS: 552
+  response: 7E8046223448A

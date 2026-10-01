@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22280D|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_ATF_T_VAR_6: 38
+  response: 7EA0462280D4E
+- expected_values:
+    EQUINOX_ATF_T_VAR_6: 85
+  response: 7EA0462280D7D
