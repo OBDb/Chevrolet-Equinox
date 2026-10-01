@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2212C4|f=-2024
+command_id: 7E0.7E8.2212C4|f=-2017
 test_cases:
 - expected_values:
     EQUINOX_INJECTOR_DUTY_CYCLE_BANK_2: 0
