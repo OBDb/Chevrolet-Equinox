@@ -1,0 +1,12 @@
+command_id: 7E2.7EA.221942
+test_cases:
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 2.25
+  response: |-
+    7EA056219420910
+    7E8056219420902
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 4.25
+  response: |-
+    7EA0562194211A0
+    7E80562194211A3

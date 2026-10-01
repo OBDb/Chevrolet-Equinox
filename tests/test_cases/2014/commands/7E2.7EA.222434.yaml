@@ -1,0 +1,10 @@
+command_id: 7E2.7EA.222434
+test_cases:
+- expected_values:
+    EQUINOX_AXLE_TQ_DRIVER_REQ: 0
+  response: "7E8 05 62 24 34 59 FE \n7EA 05 62 24 34 58 06 "
+- expected_values:
+    EQUINOX_AXLE_TQ_DRIVER_REQ: 0
+  response: |-
+    7E80562243457F8
+    7EA056224345806
