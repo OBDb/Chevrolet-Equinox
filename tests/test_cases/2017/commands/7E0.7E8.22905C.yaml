@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22905C
+test_cases:
+- expected_values:
+    EQUINOX_HOOD_POS: 5
+  response: 7E80462905C05
