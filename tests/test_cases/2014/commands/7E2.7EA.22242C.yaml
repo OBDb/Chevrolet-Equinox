@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22242C
+test_cases:
+- expected_values:
+    EQUINOX_BRAKE_TQ: 0
+  response: '7EA 05 62 24 2C 00 00 '
+- expected_values:
+    EQUINOX_BRAKE_TQ: 0
+  response: 7EA0562242C0000

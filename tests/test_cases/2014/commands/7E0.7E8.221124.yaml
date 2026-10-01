@@ -1,0 +1,25 @@
+command_id: 7E0.7E8.221124
+test_cases:
+- expected_values:
+    EQUINOX_ECM_BRAKE_PEDAL_POS: 81
+  response: "7E8 04 62 11 24 51 \n7EA 04 62 11 24 00 "
+- expected_values:
+    EQUINOX_ECM_BRAKE_PEDAL_POS: 65
+  response: |-
+    7E80462112441
+    7EA0462112400
+- expected_values:
+    EQUINOX_ECM_BRAKE_PEDAL_POS: 81
+  response: |-
+    7E80462112451
+    7EA0462112400
+- expected_values:
+    EQUINOX_ECM_BRAKE_PEDAL_POS: 221
+  response: |-
+    7E804621124DD
+    7EA0462112408
+- expected_values:
+    EQUINOX_ECM_BRAKE_PEDAL_POS: 81
+  response: |-
+    7EA0462112400
+    7E80462112451
