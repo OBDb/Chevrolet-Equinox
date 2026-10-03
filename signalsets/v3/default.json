@@ -327,7 +327,7 @@
   "signals": [
     {"id": "EQUINOX_PEM_T", "path": "Electrical", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Power electronics coolant temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2020"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2020"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "EQUINOX_MIL_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "MIL status"}
   ]},
@@ -467,7 +467,7 @@
   "signals": [
     {"id": "EQUINOX_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 2"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "19A1"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "19A1"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "EQUINOX_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear ratio"}
   ]},
