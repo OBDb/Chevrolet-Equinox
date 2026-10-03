@@ -179,7 +179,7 @@
   "signals": [
     {"id": "EQUINOX_MIS_HISTORY_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1203"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1203"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "EQUINOX_MIS_HISTORY_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 3"}
   ]},
