@@ -242,6 +242,8 @@ supported_commands_by_ecu:
   - DA18.2AF118.221991
 unsupported_commands_by_ecu:
   "241":
+  - 241.641.224007|f=-2024:EQUINOX_TID_RR
+  - 241.641.225005|f=-2024:EQUINOX_TP_FL_241
   - 241.641.225007|f=-2024:EQUINOX_TP_RR_241
   "760":
   - 760.760.224051
