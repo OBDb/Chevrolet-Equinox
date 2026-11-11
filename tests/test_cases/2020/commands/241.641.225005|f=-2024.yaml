@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     EQUINOX_TP_FL_241: 236.5
   response: 641056250050EC8
+- expected_values:
+    EQUINOX_TP_FL_241: 244.75
+  response: 641056250050F4C
+- expected_values:
+    EQUINOX_TP_FL_241: 247.5
+  response: 641056250050F78
+- expected_values:
+    EQUINOX_TP_FL_241: 250.25
+  response: 641056250050FA4
+- expected_values:
+    EQUINOX_TP_FL_241: 253
+  response: 641056250050FD0
+- expected_values:
+    EQUINOX_TP_FL_241: 255.75
+  response: 641056250050FFC
+- expected_values:
+    EQUINOX_TP_FL_241: 258.5
+  response: '641056250051028'
+- expected_values:
+    EQUINOX_TP_FL_241: 261.25
+  response: '641056250051054'
