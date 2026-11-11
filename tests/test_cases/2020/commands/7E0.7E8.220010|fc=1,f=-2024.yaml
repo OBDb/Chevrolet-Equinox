@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220010|fc=1,f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_MAF: 0
+  response: '7E8056200100000'
+- expected_values:
+    EQUINOX_MAF: 4.31
+  response: 7E80562001001AF
+- expected_values:
+    EQUINOX_MAF: 4.77
+  response: 7E80562001001DD
+- expected_values:
+    EQUINOX_MAF: 5.05
+  response: 7E80562001001F9
+- expected_values:
+    EQUINOX_MAF: 9.76
+  response: 7E80562001003D0
+- expected_values:
+    EQUINOX_MAF: 18.06
+  response: 7E805620010070E
+- expected_values:
+    EQUINOX_MAF: 18.49
+  response: '7E8056200100739'
+- expected_values:
+    EQUINOX_MAF: 19.11
+  response: '7E8056200100777'
+- expected_values:
+    EQUINOX_MAF: 31.66
+  response: 7E8056200100C5E

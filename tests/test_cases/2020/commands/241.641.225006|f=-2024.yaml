@@ -1,0 +1,17 @@
+command_id: 241.641.225006|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_TP_FR_241: 203.5
+  response: 641056250060CB8
+- expected_values:
+    EQUINOX_TP_FR_241: 206.25
+  response: 641056250060CE4
+- expected_values:
+    EQUINOX_TP_FR_241: 209
+  response: 641056250060D10
+- expected_values:
+    EQUINOX_TP_FR_241: 211.75
+  response: 641056250060D3C
+- expected_values:
+    EQUINOX_TP_FR_241: 214.5
+  response: 641056250060D68

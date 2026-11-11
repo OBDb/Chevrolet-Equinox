@@ -1,0 +1,29 @@
+command_id: 7E2.7EA.221941|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_TRANS_ISS: 0
+  response: 7EA056219410000
+- expected_values:
+    EQUINOX_TRANS_ISS: 552.75
+  response: 7EA0562194108A3
+- expected_values:
+    EQUINOX_TRANS_ISS: 2280.75
+  response: 7EA0562194123A3
+- expected_values:
+    EQUINOX_TRANS_ISS: 2286.25
+  response: 7EA0562194123B9
+- expected_values:
+    EQUINOX_TRANS_ISS: 2405.75
+  response: 7EA056219412597
+- expected_values:
+    EQUINOX_TRANS_ISS: 2776.75
+  response: 7EA056219412B63
+- expected_values:
+    EQUINOX_TRANS_ISS: 3034.75
+  response: 7EA056219412F6B
+- expected_values:
+    EQUINOX_TRANS_ISS: 3102.75
+  response: 7EA05621941307B
+- expected_values:
+    EQUINOX_TRANS_ISS: 3283.5
+  response: 7EA05621941334E

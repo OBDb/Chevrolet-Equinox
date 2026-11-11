@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222434
+test_cases:
+- expected_values:
+    EQUINOX_ECM_AXLE_TQ_DRIVER_REQ: -40
+  response: 7E80562243457DE
+- expected_values:
+    EQUINOX_ECM_AXLE_TQ_DRIVER_REQ: -5
+  response: '7E8056224345801'
+- expected_values:
+    EQUINOX_ECM_AXLE_TQ_DRIVER_REQ: 245
+  response: 7E80562243458FB
+- expected_values:
+    EQUINOX_ECM_AXLE_TQ_DRIVER_REQ: 1789
+  response: 7E8056224345F03

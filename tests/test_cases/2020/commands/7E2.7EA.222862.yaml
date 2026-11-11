@@ -1,0 +1,29 @@
+command_id: 7E2.7EA.222862
+test_cases:
+- expected_values:
+    EQUINOX_TRANS_P: 4432
+  response: 7EA056228621150
+- expected_values:
+    EQUINOX_TRANS_P: 6585
+  response: 7EA0562286219B9
+- expected_values:
+    EQUINOX_TRANS_P: 6732
+  response: 7EA056228621A4C
+- expected_values:
+    EQUINOX_TRANS_P: 7107
+  response: 7EA056228621BC3
+- expected_values:
+    EQUINOX_TRANS_P: 8064
+  response: 7EA056228621F80
+- expected_values:
+    EQUINOX_TRANS_P: 13215
+  response: 7EA05622862339F
+- expected_values:
+    EQUINOX_TRANS_P: 13471
+  response: 7EA05622862349F
+- expected_values:
+    EQUINOX_TRANS_P: 13636
+  response: 7EA056228623544
+- expected_values:
+    EQUINOX_TRANS_P: 15354
+  response: 7EA056228623BFA

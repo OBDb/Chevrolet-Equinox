@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22232C|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 4
+  response: 7E80462232C2C
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 5
+  response: 7E80462232C2D
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 6
+  response: 7E80462232C2E
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 7
+  response: 7E80462232C2F
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 8
+  response: 7E80462232C30
+- expected_values:
+    EQUINOX_AIR_TEMP_AMBIENT_2: 10
+  response: 7E80462232C32
