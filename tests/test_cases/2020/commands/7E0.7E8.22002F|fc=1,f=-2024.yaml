@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.22002F|fc=1,f=-2024
 test_cases:
 - expected_values:
-    EQUINOX_FLI: 38.43137
-  response: 7E80462002F62
+    EQUINOX_FLI: 28.62745
+  response: 7E80462002F49
 - expected_values:
-    EQUINOX_FLI: 39.21569
-  response: 7E80462002F64
-- expected_values:
-    EQUINOX_FLI: 39.60784
-  response: 7E80462002F65
-- expected_values:
-    EQUINOX_FLI: 40.39216
-  response: 7E80462002F67
-- expected_values:
-    EQUINOX_FLI: 40.78431
-  response: 7E80462002F68
-- expected_values:
-    EQUINOX_FLI: 41.17647
-  response: 7E80462002F69
+    EQUINOX_FLI: 42.35294
+  response: 7E80462002F6C

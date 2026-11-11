@@ -4,11 +4,8 @@ test_cases:
     EQUINOX_TP_RR_241: 209
   response: 641056250070D10
 - expected_values:
-    EQUINOX_TP_RR_241: 211.75
-  response: 641056250070D3C
+    EQUINOX_TP_RR_241: 255.75
+  response: 641056250070FFC
 - expected_values:
-    EQUINOX_TP_RR_241: 214.5
-  response: 641056250070D68
-- expected_values:
-    EQUINOX_TP_RR_241: 217.25
-  response: 641056250070D94
+    EQUINOX_TP_RR_241: 258.5
+  response: '641056250071028'
