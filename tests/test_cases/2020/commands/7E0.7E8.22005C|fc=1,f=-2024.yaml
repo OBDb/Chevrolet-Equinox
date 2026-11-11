@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22005C|fc=1,f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_EOT: 87
+  response: 7E80462005C7F
+- expected_values:
+    EQUINOX_EOT: 91
+  response: 7E80462005C83
+- expected_values:
+    EQUINOX_EOT: 92
+  response: 7E80462005C84
+- expected_values:
+    EQUINOX_EOT: 93
+  response: 7E80462005C85
+- expected_values:
+    EQUINOX_EOT: 94
+  response: 7E80462005C86
+- expected_values:
+    EQUINOX_EOT: 95
+  response: 7E80462005C87

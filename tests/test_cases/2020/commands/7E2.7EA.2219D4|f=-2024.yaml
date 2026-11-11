@@ -1,0 +1,29 @@
+command_id: 7E2.7EA.2219D4|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 0
+  response: 7EA056219D40000
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 508
+  response: 7EA056219D407F0
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 2269.5
+  response: 7EA056219D42376
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 2279.5
+  response: 7EA056219D4239E
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 2412.25
+  response: 7EA056219D425B1
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 2889.5
+  response: 7EA056219D42D26
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 3035.75
+  response: 7EA056219D42F6F
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 3087.25
+  response: 7EA056219D4303D
+- expected_values:
+    EQUINOX_CLU_SLIP_C3_RING: 3261.75
+  response: 7EA056219D432F7

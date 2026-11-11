@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2220D0
+test_cases:
+- expected_values:
+    EQUINOX_IGN_INPUT_ON_OFF: 0
+  response: 7E8046220D000
+- expected_values:
+    EQUINOX_IGN_INPUT_ON_OFF: 128
+  response: 7E8046220D080
+- expected_values:
+    EQUINOX_IGN_INPUT_ON_OFF: 192
+  response: 7E8046220D0C0

@@ -1,0 +1,29 @@
+command_id: 7E2.7EA.221942
+test_cases:
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 0
+  response: 7EA056219420000
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 0.5
+  response: 7EA05621942023B
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 6
+  response: 7EA0562194218B8
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 6.5
+  response: 7EA056219421A4B
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 12.5
+  response: 7EA056219423292
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 14.25
+  response: 7EA056219423955
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 14.25
+  response: 7EA0562194239E2
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 15
+  response: 7EA056219423CE3
+- expected_values:
+    EQUINOX_OUTPUT_SHFT_SPD: 15.75
+  response: 7EA056219423F8F

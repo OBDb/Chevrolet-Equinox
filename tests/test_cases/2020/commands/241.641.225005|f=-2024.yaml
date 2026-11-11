@@ -1,0 +1,5 @@
+command_id: 241.641.225005|f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_TP_FL_241: 236.5
+  response: 641056250050EC8

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22328A|fc=1,f=-2024
+test_cases:
+- expected_values:
+    EQUINOX_BP_DES: 46.99
+  response: 7E80562328A125B
+- expected_values:
+    EQUINOX_BP_DES: 63.95
+  response: 7E80562328A18FB
+- expected_values:
+    EQUINOX_BP_DES: 148.68
+  response: 7E80562328A3A14

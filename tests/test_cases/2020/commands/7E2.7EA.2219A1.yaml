@@ -1,0 +1,23 @@
+command_id: 7E2.7EA.2219A1
+test_cases:
+- expected_values:
+    EQUINOX_GEAR_RAT: 0
+  response: 7EA046219A100
+- expected_values:
+    EQUINOX_GEAR_RAT: 39
+  response: 7EA046219A127
+- expected_values:
+    EQUINOX_GEAR_RAT: 47
+  response: 7EA046219A12F
+- expected_values:
+    EQUINOX_GEAR_RAT: 64
+  response: 7EA046219A140
+- expected_values:
+    EQUINOX_GEAR_RAT: 92
+  response: 7EA046219A15C
+- expected_values:
+    EQUINOX_GEAR_RAT: 123
+  response: 7EA046219A17B
+- expected_values:
+    EQUINOX_GEAR_RAT: 188
+  response: 7EA046219A1BC
