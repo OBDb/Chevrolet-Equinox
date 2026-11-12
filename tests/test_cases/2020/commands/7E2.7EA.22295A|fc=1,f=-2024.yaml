@@ -1,8 +1,8 @@
 command_id: 7E2.7EA.22295A|fc=1,f=-2024
 test_cases:
 - expected_values:
-    EQUINOX_TF_T_FLTED: 22
-  response: 7EA0462295A3E
+    EQUINOX_TF_T_FLTED: 15
+  response: 7EA0462295A37
 - expected_values:
     EQUINOX_TF_T_FLTED: 74
   response: 7EA0462295A72
