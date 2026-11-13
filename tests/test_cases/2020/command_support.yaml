@@ -11,6 +11,7 @@ supported_commands_by_ecu:
   - 241.641.225008|f=-2024:EQUINOX_TP_RL_241
   "7DF":
   - 7DF.0105
+  - 7DF.0106
   - 7DF.012F
   - 7DF.0131
   - 7DF.0142
