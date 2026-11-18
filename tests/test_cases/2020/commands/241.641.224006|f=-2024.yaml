@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     EQUINOX_TID_FR: 2416553820
   response: 641076240069009AF5C
+- expected_values:
+    EQUINOX_TID_FR: 2432856481
+  response: 64107624006910271A1
