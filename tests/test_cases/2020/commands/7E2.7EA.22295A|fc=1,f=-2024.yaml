@@ -4,5 +4,5 @@ test_cases:
     EQUINOX_TF_T_FLTED: 10
   response: 7EA0462295A32
 - expected_values:
-    EQUINOX_TF_T_FLTED: 74
-  response: 7EA0462295A72
+    EQUINOX_TF_T_FLTED: 75
+  response: 7EA0462295A73

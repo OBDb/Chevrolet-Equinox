@@ -7,5 +7,5 @@ test_cases:
     EQUINOX_TP_RR_241: 255.75
   response: 641056250070FFC
 - expected_values:
-    EQUINOX_TP_RR_241: 258.5
-  response: '641056250071028'
+    EQUINOX_TP_RR_241: 272.25
+  response: '641056250071104'
