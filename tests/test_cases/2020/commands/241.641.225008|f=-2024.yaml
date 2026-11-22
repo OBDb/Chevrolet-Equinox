@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     EQUINOX_TP_RL_241: 272.25
   response: '641056250081104'
+- expected_values:
+    EQUINOX_TP_RL_241: 288.75
+  response: 64105625008120C
